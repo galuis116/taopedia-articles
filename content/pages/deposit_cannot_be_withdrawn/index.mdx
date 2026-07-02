@@ -73,7 +73,8 @@ remains ([No Contribution](https://docs.learnbittensor.org/subtensor-api/errors#
 `DepositCannotBeWithdrawn` and `AlreadyFinalized` both block `withdraw`, but at different checks.
 `AlreadyFinalized` means the campaign already completed finalization. `DepositCannotBeWithdrawn`
 means the campaign is still non-finalized but the creator has no excess above the locked deposit to
-withdraw ([Already Finalized](https://docs.learnbittensor.org/subtensor-api/errors#alreadyfinalized),
+withdraw
+([Already Finalized](https://docs.learnbittensor.org/subtensor-api/errors#alreadyfinalized),
 [Subtensor source: crowdloan/lib.rs](https://github.com/opentensor/subtensor/blob/main/pallets/crowdloan/src/lib.rs)).
 
 - **DepositCannotBeWithdrawn** — the creator has no withdrawable amount above the deposit.
